@@ -986,11 +986,9 @@ footer {
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
-
     color: #757575;
     display: flex;
     align-items: center;
-
     margin-top: 20px;
 }
 
@@ -1001,13 +999,14 @@ footer {
     width: 16px;
     border: 1px solid  #757575;
     border-radius: 2px;
-    opacity: 1;
+    /* opacity: 1; */
     cursor: pointer;
     margin-right: 8px;
 }
 
 .modal-form-term:checked + .modal-checkbox-desc::before {
     background-image: url("../images/icon\ check.svg");
+    background-color: #2196F3;
     background-position: center;
 }
 
